@@ -10,9 +10,9 @@ const History = () => {
             <div className="bg-white p-6 rounded shadow-lg">
               <h3 className="text-2xl font-bold mb-4 darker grotesque"> Umoja Mentorship</h3>
               <Image src="/images/mentor.png" alt="mentor" width={0} height={0}/>
-              <p className="text-lg darker grotesque">A mentorship platform that allows mentees to view their mentor's profile,
+              <p className="text-lg darker grotesque">A mentorship platform that allows mentees to view their mentors profile
 and update and track their accomplishments and tasks they need to
-achieve.</p>
+achieve</p>
               <a href="https://akirachix-mentorship-program.vercel.app/" target="_blank" rel="noopener noreferrer">
     <button className="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold py-4 px-12 rounded mt-8 ml-8">
       View
@@ -24,7 +24,7 @@ achieve.</p>
               <h3 className="text-2xl font-bold mb-4 darker grotesque">CorkTail Recipe</h3>
               <Image src="/images/corktail.png" alt="corktail" width={0} height={0}/>
               <p className="text-lg darker grotesque">A platform that allow users to search for their favorite cocktail and
-             display all the information about the cocktail.</p>
+             display all the information about the cocktail</p>
               <a href="https://cock-tail-project-pi.vercel.app/" target="_blank" rel="noopener noreferrer">
     <button className="bg-yellow-500 hover:bg-yellow-400 text-black font-semibold py-4 px-12 rounded mt-8 mr-8">
       View

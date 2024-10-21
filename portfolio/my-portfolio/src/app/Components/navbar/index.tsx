@@ -14,9 +14,9 @@ const About = () => {
   <div className="md:w-1/2 text-center md:text-left space-y-6">
     <h2 className="text-[30px] font-bold text-yellow-500 darker grotesque">About Me</h2>
     <p className="text-[24px] text-black leading-relaxed  mx-auto md:mx-0 darker grotesque">
-      As a software developer, I pride myself on being hardworking, self-driven, and motivated.
-      I love collaborating with others in a team environment, where I can contribute and learn from different perspectives.
-      I'm passionate about continuous learning, always eager to explore new technologies and improve my skills.
+      As a software developer. I pride myself on being hardworking self-driven and motivated.
+      I love collaborating with others in a team environment. Where I can contribute and learn from different perspectives.
+      I am passionate about continuous learning always eager to explore new technologies and improve my skills.
       This drive to grow and adapt helps me stay forward-thinking and prepared for any challenge I face.
     </p>
   </div>
