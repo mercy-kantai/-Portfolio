@@ -1,3 +1,4 @@
+import Image from "next/image";
 const Services = () => {
     return (
       <section id="services" className="bg-gray-200 py-16">
@@ -7,7 +8,7 @@ const Services = () => {
 
           <div className="bg-white p-6 rounded-lg shadow-md darker grotesque">
          <h3 className="text-xl font-bold mb-4">Web Development</h3>
-         <img 
+         <Image 
          src="/images/web.jpg" 
          alt="Web Development" 
          className="w-full h-auto max-w-[400px] rounded-md shadow-sm darker grotesque"                     />
@@ -17,7 +18,7 @@ const Services = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md darker grotesque">
          <h3 className="text-xl font-bold mb-4">Backend Development</h3>
-         <img 
+         <Image
          src="/images/backend.webp" 
          alt="Web Development" 
          className="w-full h-auto max-w-[400px] rounded-md shadow-sm darker grotesque"                     />
@@ -29,7 +30,7 @@ const Services = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md darker grotesque">
          <h3 className="text-xl font-bold mb-4">UI/UX Design</h3>
-         <img 
+         <Image
          src="/images/design.png" 
          alt="Web Development" 
          className="w-full h-auto max-w-[400px] rounded-md shadow-sm"                     />
@@ -40,7 +41,7 @@ const Services = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md darker grotesque">
          <h3 className="text-xl font-bold mb-4">Product Management</h3>
-         <img 
+         <Image 
          src="/images/product.avif" 
          alt="Web Development" 
          className="w-full h-auto max-w-[400px] rounded-md shadow-sm"                     />
@@ -53,7 +54,7 @@ const Services = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md darker grotesque">
          <h3 className="text-xl font-bold mb-4">Mobile Development</h3>
-         <img 
+         <Image 
          src="/images/android.png" 
          alt="Web Development" 
          className="w-full h-auto max-w-[400px] rounded-md shadow-sm darker grotesque"                     />
@@ -65,7 +66,7 @@ const Services = () => {
 
             <div className="bg-white p-6 rounded-lg shadow-md darker grotesque">
          <h3 className="text-xl font-bold mb-4">UX Research</h3>
-         <img 
+         <Image
          src="/images/ux-re.jpeg" 
          alt="Web Development" 
          className="w-full h-auto max-w-[400px] rounded-md shadow-sm"                     />

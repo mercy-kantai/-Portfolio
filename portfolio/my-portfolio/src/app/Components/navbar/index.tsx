@@ -1,9 +1,10 @@
+import Image from "next/image";
 const About = () => {
     return (
       <section id="about" className="py-16 bg-gray-200">
       <div className="container mx-auto flex flex-col md:flex-row items-center py-12 px-6 space-y-8 md:space-y-0 md:space-x-24">
   <div className="md:w-1/2 flex justify-center md:justify-end mb-6 md:mb-0">
-    <img 
+    <Image 
       src="/images/Mercy.jpg" 
       alt="About Me Image" 
       className="w-[400px] h-auto rounded-md shadow-lg border-4 border-yellow-500 mr-[12%]"

@@ -1,10 +1,11 @@
+import Image from "next/image";
 const Hero = () => {
     return (
      
       <section className="bg-green-800 text-white py-20">
         <div className="container mx-auto flex items-center gap-12 p-8">
   <div className="w-1/2 flex justify-center">
-    <img
+    <Image
       src="/images/Mercy.jpg"
       className="w-[350px] h-[350px] rounded-full shadow-lg bg-white border-4 border-yellow-500"
       alt="Mercy Kantai"
